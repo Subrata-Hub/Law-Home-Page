@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #2c2923;
+  height: 45vh;
+  position: relative;
+
+}
+
+.bg-img {
+  height: 75vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size:auto;
+  position: absolute;
+  top: 260px;
+  z-index: -1;
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 120px;
+  position: relative;
+  top: 30px;
+}
+
+.nav-items {
+  display: flex;
+  gap: 40px;
+  position: absolute;
+  right: 170px;
+  top: 18px;
+}
+
+.nav-items .nav-item {
+  list-style-type: none;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #fff;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.nav-button {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 12px 30px;
+  background-color: transparent;
+  color: #7d6f31;
+  border: 2px solid #7d6f31;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.logo {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+/* -----Hero section ------- */
+
+.hero {
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  align-items: center;
+  top: 120px;
+  color: white;
+  position: absolute;
+  left: 120px;
+  right: 100px;
+
+}
+
+.hero-main{
+  width: 100%;
+}
+
+.hero-heading {
+  font-weight: 900;
+  font-size: 70px;
+  text-align: left;
+
+}
+
+.hero-sub{
+  margin-left: 200px;
+}
+
+.hero-description{
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  margin-left: 160px;
+  text-align: start;
+  font-weight: 300;
+
+}
+
+/* //////// Footer Section//////// */
+
+.arrow-btns{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color:#2c2923;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  top: 100vh;
+}
+
+.arrow-btns div:first-child{
+  background-color: #39372d;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-btns div:last-child{
+  background-color: #a08f36;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-btns div:first-child span{
+  width: 40px;
+  height: 40px;
+  border: 2px solid#a08f36;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-btns div:last-child span {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #FFFFFF;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-solid{
+  color: #fff;
+}
